@@ -1,5 +1,5 @@
 const { program } = require('commander');
-const getMonths = async() => {
+const getMonths = () => {
 
     program
         .option('-l, --last', 'fill in the last month ')

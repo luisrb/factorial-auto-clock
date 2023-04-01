@@ -13,7 +13,7 @@ require('dotenv').config();
 
 (async () => {
     // get the months ago that you want to fill in(CLI)
-    const months = await getMonths();
+    const months = getMonths();
 
     // get the browser and the page config
     const { browser, page } = await browserConfig();
