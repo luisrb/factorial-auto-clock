@@ -18,7 +18,11 @@ To use the project, follow the steps below:
 
 * *You can customize the schedules in the ```.env``` file.
 
+If you want to fill the schedule of the last month
+```node index.js -l```
 
+If you want to fill the schedule of the x month
+```node index.js -m 2``` (2 month ago)
 
 Contribution
 ------------
